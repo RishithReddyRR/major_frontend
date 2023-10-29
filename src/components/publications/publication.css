@@ -1,0 +1,24 @@
+.publication{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-around; */
+    /* align-items: center; */
+    height: 10vmax;
+    padding: 2vmax;
+    border: 2px solid rgba(0,0,0,.5);
+    box-sizing: border-box;
+    margin: 1vmax 0;
+}
+.publication>p{
+    margin:.2vmax;
+}
+.publication a{
+    color: red;
+    text-decoration: none;
+}
+.title{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}

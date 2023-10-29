@@ -1,0 +1,23 @@
+#nav{
+    height:3.8vmax;
+    background-color:rgba(17, 46, 66);
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    
+}
+#nav>a{
+    color: whitesmoke;
+    font-size: 1.2vmax;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav>a:hover{
+    color: #0000e6;
+    background-color: white;
+    padding: .5vmax 1vmax;
+    transition: all .7s ease-in-out;
+}
